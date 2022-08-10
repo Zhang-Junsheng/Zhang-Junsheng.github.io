@@ -10,8 +10,7 @@ profile:
   image_cicular: false # crops the image to make it circular
   address: >
     <p>835 Evans Hall,</p>
-    <p>University of California, Berkeley,</p>
-    <p> CA 94720</p>
+    <p>University of California, Berkeley, CA 94720</p>
 
 news: true  # includes a list of news items
 selected_papers: # includes a list of papers marked as "selected={true}"
