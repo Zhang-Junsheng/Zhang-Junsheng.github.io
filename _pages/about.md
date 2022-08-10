@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://math.berkeley.edu'>Affiliations</a>. Department of Mathematics, UC Berkeley
 
 profile:
   align: right
