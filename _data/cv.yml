@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Junsheng Zhang
     - name: Date of Birth
-      value: 14th March 1879
+      value: 18th May 1998
     - name: Languages
-      value: English, German
+      value: Chinese, English
 
 - title: Education
   type: time_table
