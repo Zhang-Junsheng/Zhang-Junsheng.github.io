@@ -12,7 +12,7 @@ profile:
     <p>835 Evans Hall,</p>
     <p>University of California, Berkeley, CA 94720</p>
 
-news: true  # includes a list of news items
+news:  # includes a list of news items
 selected_papers: # includes a list of papers marked as "selected={true}"
 social:  # includes social icons at the bottom of the page
 ---
