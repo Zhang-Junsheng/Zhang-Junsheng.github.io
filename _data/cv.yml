@@ -57,7 +57,7 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Commplete non-compact Calabi-Yau manifolds
+    - title: Commplex geometry
       items: 
         - Description 1.
         - Description 2.
