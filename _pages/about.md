@@ -9,7 +9,8 @@ profile:
   image: Junsheng_Zhang.jpg
   image_cicular: false # crops the image to make it circular
   address: >
-    <p>835 Evans Hall, University of California, Berkeley,</p>
+    <p>835 Evans Hall,</p>
+    <p>University of California, Berkeley,</p>
     <p> CA 94720</p>
 
 news: true  # includes a list of news items
