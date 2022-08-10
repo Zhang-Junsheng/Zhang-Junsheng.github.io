@@ -14,17 +14,11 @@
     - title: PhD student
       institution: University of California, Berkeley
       year: 2019--
-      description:
-        - Description 1.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+      description：
     - title: B.S. in Mathematics and Applied Mathematics
       institution: University of Science and Technology of China (USTC)
       year: 2019
       description:
-        - Description 1.
 
 - title: Experience
   type: time_table
@@ -58,8 +52,8 @@
   type: nested_list
   contents:
     - title: Commplex geometry
-      items: 
-        - Description 1.
-        - Description 2.
+      #items: 
+        #- Description 1.
+        #- Description 2.
     - title: Gauge theory
 
