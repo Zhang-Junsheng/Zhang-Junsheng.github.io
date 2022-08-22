@@ -160,19 +160,7 @@ nav_order: 4
   
   
   
-  
-<td align="left"> Nov 11</td>
-<td>
-<!--name-->
-</td>
-<td> 
-<!--title-->
-</td>
-<td>
-<!--notes-->
-</td>
-<tr>  
-  
+
   
   
   
