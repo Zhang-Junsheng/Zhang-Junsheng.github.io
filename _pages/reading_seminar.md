@@ -9,7 +9,7 @@ nav_order: 4
 <p> <table cellpadding="4" cellspacing="2" border="8">
 
 
-<td align="left"> <b>Date & Time</b></td>
+<td align="left"> <b>Time</b></td>
 <td>
 <b>Speaker</b>
 </td>
@@ -171,12 +171,6 @@ Antoine Song (UCB)
 <td><a href="https://math.berkeley.edu/~rbamler/riddle.html">Bamler</a>
 </td>
 </td>
-
-
-
-
-
-
 </table>
 
 
