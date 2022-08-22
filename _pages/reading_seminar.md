@@ -6,8 +6,3 @@ description: Fall 2022 under the guidance of Prof. Song Sun, we organize a readi
 nav: true
 nav_order: 4
 ---
-
-I'm a GSI for Math 16A (Analytic Geometry and Calculus) Fall 2022. The office hours are Thursday 10:00-11:59 am.
-
-
-I taught Math 54 (Linear Algebra) and Math 53 (Multivariable Calculus) in the past several years. 
