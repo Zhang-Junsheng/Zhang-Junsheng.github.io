@@ -44,42 +44,6 @@ TBA
 </td>
 <tr>
 
-<td align="left"> Sep 21, 11:00</td>
-<td>
-Xin Zhou (Cornell)
-</td>
-<td>
-<a href="https://events.berkeley.edu/index.php/calendar/sn/math.html?event_ID=135304&date=2020-09-21&filter=Secondary%20Event%20Type&filtersel=">Generic scarring for minimal hypersurfaces</a>
-</td>
-<td>
-<a href="https://math.berkeley.edu/~rbamler/riddle.html">Bamler</a>
-</td>
-<tr>
-
-
-<td align="left"> Sep 28, 10:00 </td>
-<td>
-Alix Deruelle (Sorbonne)
-</td>
-<td> 
-A relative energy for ALE Ricci flat metrics
-</td>
-<td>
-<a href="https://math.berkeley.edu/~rbamler/riddle.html">Bamler</a>
-</td>
-<tr>
-
-<td align="left"> Oct 5, 10:00</td>
-<td>
-Ved Datar (IIS)
-</td>
-<td> 
-<a href="https://events.berkeley.edu/index.php/calendar/sn/math.html?event_ID=135594&date=2020-10-05&filter=Secondary%20Event%20Type&filtersel=">Nakai type criteria for solving certain general inverse Hessian type equations on projective manifolds</a>
-</td>
-<td>
-<a href="https://math.berkeley.edu/~rbamler/riddle.html">Bamler</a>
-</td>
-<tr>
 
 
 <td align="left"> Oct 12, 17:00</td>
@@ -161,16 +125,6 @@ Nicolaus Heuer (Cambridge)
 </td>
 <tr>
 
-<td align="left"> Nov 30, 10:00</td>
-<td>
-Antoine Song (UCB)
-</td>
-<td> 
-<a href="https://events.berkeley.edu/index.php/calendar/sn/math.html?event_ID=136553&date=2020-11-30&filter=Secondary%20Event%20Type&filtersel=">Essential minimal volume and minimizing metrics</a>
-</td>
-<td><a href="https://math.berkeley.edu/~rbamler/riddle.html">Bamler</a>
-</td>
-</td>
 </table>
 
 
