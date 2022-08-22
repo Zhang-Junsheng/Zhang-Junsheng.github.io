@@ -14,7 +14,7 @@ nav_order: 4
 <b>Speaker</b>
 </td>
 <td> 
-<b>Title</b>
+<b>Title and Reference</b>
 </td>
 <td>
 <b>Notes</b>
@@ -93,52 +93,140 @@ nav_order: 4
 <tr>
 
 
-<td align="left"> Nov 2, 16:00</td>
+<td align="left"> Oct 07</td>
 <td>
-Charles Cifarelli (UCB)
+<!--name-->
 </td>
 <td> 
-<a href="https://events.berkeley.edu/index.php/calendar/sn/math.html?event_ID=136150&date=2020-11-02&filter=Secondary%20Event%20Type&filtersel=">Shrinking gradient Kähler-Ricci solitons and toric geometry</a>
+<!--title-->
 </td>
-<td><a href="https://math.berkeley.edu/~rbamler/riddle.html">Bamler</a>
+<td>
+<!--notes-->
 </td>
 <tr>
 
 
-<td align="left"> Nov 9, 10:00</td>
+  
+  <td align="left"> Oct 14</td>
 <td>
-Anand Dessai (Fribourg)
+<!--name-->
 </td>
 <td> 
-<a href="https://events.berkeley.edu/index.php/calendar/sn/math.html?event_ID=136254&date=2020-11-09&filter=Secondary%20Event%20Type&filtersel=">Moduli spaces of metrics of nonnegative sectional curvature</a>
+<!--title-->
 </td>
-<td><a href="https://math.berkeley.edu/~rbamler/riddle.html">Bamler</a>
+<td>
+<!--notes-->
 </td>
 <tr>
 
 
-<td align="left"> Nov 16, 10:00</td>
+<td align="left"> Oct 21</td>
 <td>
-Felix Schulze (Warwick)
+<!--name-->
 </td>
 <td> 
-<a href="https://events.berkeley.edu/index.php/calendar/sn/math.html?event_ID=135807&date=2020-11-16&filter=Secondary%20Event%20Type&filtersel=">Mean curvature flow with generic initial data</a>
+<!--title-->
 </td>
-<td><a href="https://math.berkeley.edu/~rbamler/riddle.html">Bamler</a>
-</td>
-<tr>
-
-<td align="left"> Nov 23, 10:00</td>
 <td>
-Nicolaus Heuer (Cambridge)
-</td>
-<td> 
-<a href="https://events.berkeley.edu/index.php/calendar/sn/math.html?event_ID=136499&date=2020-11-23&filter=Secondary%20Event%20Type&filtersel=">The Spectrum of Simplicial Volume</a>
-</td>
-<td><a href="https://math.berkeley.edu/~rbamler/riddle.html">Bamler</a>
+<!--notes-->
 </td>
 <tr>
 
 
-
-
+<td align="left"> Oct 28</td>
+<td>
+<!--name-->
+</td>
+<td> 
+<!--title-->
+</td>
+<td>
+<!--notes-->
+</td>
+<tr>
+  
+  
+<td align="left"> Nov 04</td>
+<td>
+<!--name-->
+</td>
+<td> 
+<!--title-->
+</td>
+<td>
+<!--notes-->
+</td>
+<tr>  
+  
+  
+  
+  
+<td align="left"> Nov 11</td>
+<td>
+<!--name-->
+</td>
+<td> 
+<!--title-->
+</td>
+<td>
+<!--notes-->
+</td>
+<tr>  
+  
+  
+  
+  
+<td align="left"> Nov 18</td>
+<td>
+<!--name-->
+</td>
+<td> 
+<!--title-->
+</td>
+<td>
+<!--notes-->
+</td>
+<tr>  
+  
+  
+  
+<td align="left"> Nov 25</td>
+<td>
+<!--name-->
+</td>
+<td> 
+<!--title-->
+</td>
+<td>
+<!--notes-->
+</td>
+<tr>  
+  
+  
+    
+<td align="left"> Dec 02</td>
+<td>
+<!--name-->
+</td>
+<td> 
+<!--title-->
+</td>
+<td>
+<!--notes-->
+</td>
+<tr>  
+  
+  
+  
+    
+<td align="left"> Dec 09</td>
+<td>
+<!--name-->
+</td>
+<td> 
+<!--title-->
+</td>
+<td>
+<!--notes-->
+</td>
+<tr>  
