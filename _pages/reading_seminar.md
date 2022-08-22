@@ -6,10 +6,10 @@ description: Fall 2022 under the guidance of Prof. Song Sun, we organize a readi
 nav: true
 nav_order: 4
 ---
-<p> <table cellpadding="4" cellspacing="3" border="8">
+<p> <table cellpadding="4" cellspacing="4" border="8">
 
 
-<td align="left"> <b>Time 1pm PT</b></td>
+<td align="left"> <b>Time (1pm PT)</b></td>
 <td>
 <b>Speaker</b>
 </td>
@@ -44,19 +44,17 @@ TBA
 </td>
 <tr>
 
-
-
-<td align="left"> Oct 12, 17:00</td>
+  <td align="left"> Sep 14</td>
 <td>
-Kyeongsu Choi (KIAS)
+TBA
 </td>
 <td> 
-<a href="https://events.berkeley.edu/index.php/calendar/sn/math.html?event_ID=135741&date=2020-10-12&filter=Secondary%20Event%20Type&filtersel=">Classification of ancient mean curvature flows</a>
 </td>
 <td>
-<a href="https://math.berkeley.edu/~rbamler/riddle.html">Bamler</a>
 </td>
 <tr>
+
+
 
 <td align="left"> Oct 19, 16:00 </td>
 <td>
@@ -125,6 +123,6 @@ Nicolaus Heuer (Cambridge)
 </td>
 <tr>
 
-</table>
+
 
 
