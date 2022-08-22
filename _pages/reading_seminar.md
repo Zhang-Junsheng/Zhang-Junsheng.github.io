@@ -17,17 +17,17 @@ nav_order: 4
 <b>Title</b>
 </td>
 <td>
-<b>Host</b>
+<b>Notes</b>
 </td>
 <tr>
 
 
-<td align="left"> Aug 31, 10:00</td>
+<td align="left"> Sep 02</td>
 <td>
-Ya Deng (IHES)
+
 </td>
 <td> 
-<a href="https://events.berkeley.edu/index.php/calendar/sn/math.html?event_ID=134577&date=2020-08-31&filter=Secondary%20Event%20Type&filtersel=">Uniformization of non-compact ball quotient</a>
+<a =">Uniformization of non-compact ball quotient</a>
 </td>
 <td>
 <a href="https://math.berkeley.edu/~rbamler/riddle.html">Bamler</a>
