@@ -9,7 +9,7 @@ nav_order: 4
 <p> <table cellpadding="4" cellspacing="2" border="8">
 
 
-<td align="left"> <b>Time</b></td>
+<td align="left"> <b>Time 1pm PT</b></td>
 <td>
 <b>Speaker</b>
 </td>
