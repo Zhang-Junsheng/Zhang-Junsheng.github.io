@@ -27,10 +27,10 @@ nav_order: 4
 <!--name-->
 </td>
 <td> 
-<a =">Uniformization of non-compact ball quotient</a>
+<!--title-->
 </td>
 <td>
-<a href="https://math.berkeley.edu/~rbamler/riddle.html">Bamler</a>
+<!--notes-->
 </td>
 <tr>
 
