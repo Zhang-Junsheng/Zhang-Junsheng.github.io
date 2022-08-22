@@ -2,14 +2,14 @@
 layout: page
 permalink: /rs/
 title: Reading Seminars
-description: Fall 2022 under the guidance of Prof. Song Sun, we organize a reading seminar on complex geometry. This semester we don't have a presecribed topic and participants are free to give talks from their own tastes. You can sign up for a talk using this google sheet. Song is willing to provide interesting topics and related references, so if you want to find a topic to study and give a talk on the seminar, feel free to reach out to Song for help.
+description: Fall 2022 under the guidance of Prof. Song Sun, we organize a reading seminar on complex geometry Friday 1pm--4pm (PT time) in 748 Evans Hall. This semester we don't have a presecribed topic and participants are free to give talks from their own tastes. You can sign up for a talk using this google sheet. Song is willing to provide interesting topics and related references, so if you want to find a topic to study and give a talk on the seminar, feel free to reach out to Song for help.
 nav: true
 nav_order: 4
 ---
-<p> <table cellpadding="4" cellspacing="4" border="8">
+<p> <table cellpadding="4" cellspacing="2" border="8">
 
 
-<td align="left"> <b>Time (1pm PT)</b></td>
+<td align="left"> <b>Date</b></td>
 <td>
 <b>Speaker</b>
 </td>
