@@ -33,49 +33,65 @@ nav_order: 4
 <!--notes-->
 </td>
 <tr>
-
-<td align="left"> Sep 14</td>
+  
+  
+<td align="left"> Sep 09</td>
 <td>
-TBA
+<!--name-->
 </td>
 <td> 
+<!--title-->
 </td>
 <td>
+<!--notes-->
 </td>
 <tr>
 
-  <td align="left"> Sep 14</td>
+  
+  
+  
+<td align="left"> Sep 16</td>
 <td>
-TBA
+<!--name-->
 </td>
 <td> 
+<!--title-->
 </td>
 <td>
+<!--notes-->
 </td>
 <tr>
 
 
-
-<td align="left"> Oct 19, 16:00 </td>
+  
+  
+<td align="left"> Sep 23</td>
 <td>
-Jackson Mcfeely Goodman (UCB)
+<!--name-->
 </td>
 <td> 
-<a href="https://events.berkeley.edu/index.php/calendar/sn/math.html?event_ID=135934&date=2020-10-19&filter=Secondary%20Event%20Type&filtersel=">Moduli spaces of Ricci positive metrics in dimension five</a>
+<!--title-->
 </td>
-<td><a href="https://math.berkeley.edu/~rbamler/riddle.html">Bamler</a>
+<td>
+<!--notes-->
 </td>
 <tr>
 
-<td align="left"> Oct 26, 10:00</td>
+
+  
+  
+<td align="left"> Sep 30</td>
 <td>
-Yang Li (MIT)
+<!--name-->
 </td>
-<td> <a href="https://events.berkeley.edu/index.php/calendar/sn/math.html?event_ID=136065&date=2020-10-26&filter=Secondary%20Event%20Type&filtersel=">Metric SYZ conjecture</a>
+<td> 
+<!--title-->
 </td>
-<td><a href="https://math.berkeley.edu/~rbamler/riddle.html">Bamler</a>
+<td>
+<!--notes-->
 </td>
 <tr>
+
 
 <td align="left"> Nov 2, 16:00</td>
 <td>
