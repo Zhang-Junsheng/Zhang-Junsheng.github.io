@@ -6,7 +6,7 @@ description: Fall 2022 under the guidance of Prof. Song Sun, we organize a readi
 nav: true
 nav_order: 4
 ---
-<p> <table cellpadding="4" cellspacing="2" border="8">
+<p> <table cellpadding="4" cellspacing="3" border="8">
 
 
 <td align="left"> <b>Time 1pm PT</b></td>
