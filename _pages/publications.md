@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications and preprints
+title: Research
 description:
 years: [2022]
 nav: true
