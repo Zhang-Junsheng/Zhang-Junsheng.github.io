@@ -8,7 +8,7 @@ nav_order: 4
 ---
 
 
-<p>Fall 2022 under the guidance of Prof. Song Sun, we continue to have a reading seminar on complex geometry. We will be meeting Friday at 1pm--3pm (PT time) in 748 Evans Hall. Email <a href="mailto:jszhang@berkeley.edu"> Junsheng </a> if you want to be added to the mailing list. </p>
+<p>Fall 2022 under the guidance of Prof. Song Sun, we continue to have a reading seminar on complex geometry. We will be meeting Friday at 1:10pm--3pm (PT time) in 748 Evans Hall. Email <a href="mailto:jszhang@berkeley.edu"> Junsheng </a> if you want to be added to the mailing list. </p>
 
 <p>This semester we don't have a presecribed topic and participants are free to give talks from their own tastes. You can sign up for a talk using this <a href="https://docs.google.com/spreadsheets/d/1XxCFOiF1b4nFCLuem0fPt7d5ALxDJKVjxgu0Sw6DPUM/edit?usp=sharing"> google sheet. </a> Song is willing to provide interesting topics and related references, so if you want to find a topic to study and give a talk on the seminar, feel free to reach out to Song for suggestions.</p>
 
@@ -41,10 +41,10 @@ Organizational meeting
 
 <td align="left"> Sep 02</td>
 <td>
-<!--name-->
+Junsheng
 </td>
 <td> 
-<!--title-->
+An introudction to complex hyperbolicity
 </td>
 <td>
 <!--notes-->
