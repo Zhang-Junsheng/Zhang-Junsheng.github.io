@@ -54,7 +54,7 @@ An introudction to complex hyperbolicity
   
 <td align="left"> Sep 09</td>
 <td>
-<!--name-->
+  Mingyang
 </td>
 <td> 
 <!--title-->
@@ -69,7 +69,7 @@ An introudction to complex hyperbolicity
   
 <td align="left"> Sep 16</td>
 <td>
-<!--name-->
+Mingyang
 </td>
 <td> 
 <!--title-->
@@ -84,7 +84,7 @@ An introudction to complex hyperbolicity
   
 <td align="left"> Sep 23</td>
 <td>
-<!--name-->
+
 </td>
 <td> 
 <!--title-->
@@ -99,7 +99,7 @@ An introudction to complex hyperbolicity
   
 <td align="left"> Sep 30</td>
 <td>
-<!--name-->
+Carlos
 </td>
 <td> 
 <!--title-->
@@ -112,7 +112,7 @@ An introudction to complex hyperbolicity
 
 <td align="left"> Oct 07</td>
 <td>
-<!--name-->
+Qiuyu
 </td>
 <td> 
 <!--title-->
@@ -126,7 +126,7 @@ An introudction to complex hyperbolicity
   
   <td align="left"> Oct 14</td>
 <td>
-<!--name-->
+Jiakai
 </td>
 <td> 
 <!--title-->
@@ -139,7 +139,7 @@ An introudction to complex hyperbolicity
 
 <td align="left"> Oct 21</td>
 <td>
-<!--name-->
+Swapnil
 </td>
 <td> 
 <!--title-->
@@ -152,7 +152,7 @@ An introudction to complex hyperbolicity
 
 <td align="left"> Oct 28</td>
 <td>
-<!--name-->
+Josh
 </td>
 <td> 
 <!--title-->
@@ -165,7 +165,7 @@ An introudction to complex hyperbolicity
   
 <td align="left"> Nov 04</td>
 <td>
-<!--name-->
+Carlos
 </td>
 <td> 
 <!--title-->
@@ -183,7 +183,7 @@ An introudction to complex hyperbolicity
   
 <td align="left"> Nov 18</td>
 <td>
-<!--name-->
+Yueqing
 </td>
 <td> 
 <!--title-->
@@ -197,7 +197,7 @@ An introudction to complex hyperbolicity
   
 <td align="left"> Nov 25</td>
 <td>
-<!--name-->
+Garrett
 </td>
 <td> 
 <!--title-->
@@ -210,8 +210,7 @@ An introudction to complex hyperbolicity
   
     
 <td align="left"> Dec 02</td>
-<td>
-<!--name-->
+Yifan
 </td>
 <td> 
 <!--title-->
@@ -226,7 +225,7 @@ An introudction to complex hyperbolicity
     
 <td align="left"> Dec 09</td>
 <td>
-<!--name-->
+Garrett
 </td>
 <td> 
 <!--title-->
