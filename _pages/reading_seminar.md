@@ -102,7 +102,7 @@ Hermitian ALE 4 manifolds--III
 Carlos
 </td>
 <td> 
-localization formulas for characteristic numbers and the Fuktaki invariant
+Localization formulas for characteristic numbers and the Fuktaki invariant
 </td>
 <td>
 <!--notes-->
@@ -115,7 +115,7 @@ localization formulas for characteristic numbers and the Fuktaki invariant
 Qiuyu
 </td>
 <td> 
-Seiberg-Witten invariants on Kahler manifolds and applications
+Seiberg-Witten invariants on K\"ahler manifolds and applications
 </td>
 <td>
 <!--notes-->
