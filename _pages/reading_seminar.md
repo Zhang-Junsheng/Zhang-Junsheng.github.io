@@ -129,7 +129,7 @@ Seiberg-Witten invariants on K\"ahler manifolds and applications
 Jiakai
 </td>
 <td> 
-<!--title-->
+Bogomolny monopoles and Hithcin's mini-twistor approach
 </td>
 <td>
 <!--notes-->
