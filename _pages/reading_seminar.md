@@ -142,7 +142,7 @@ Bogomolny monopoles and Hitchin's mini-twistor approach
 Swapnil
 </td>
 <td> 
-<!--title-->
+An introduction to complex-oriented cohomology theories 
 </td>
 <td>
 <!--notes-->
