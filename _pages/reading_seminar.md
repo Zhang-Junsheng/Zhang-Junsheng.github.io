@@ -195,18 +195,6 @@ Yueqing
   
   
   
-<td align="left"> Nov 25</td>
-<td>
-Garrett
-</td>
-<td> 
-<!--title-->
-</td>
-<td>
-<!--notes-->
-</td>
-<tr>  
-  
   
     
 <td align="left"> Dec 02</td>
