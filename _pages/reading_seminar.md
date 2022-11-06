@@ -115,7 +115,7 @@ Localization formulas for characteristic numbers and the Fuktaki invariant
 Qiuyu
 </td>
 <td> 
-Seiberg-Witten invariants on K\"ahler manifolds and applications
+Seiberg-Witten invariants on Kähler manifolds and applications
 </td>
 <td>
 <!--notes-->
