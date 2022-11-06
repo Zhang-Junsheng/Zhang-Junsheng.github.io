@@ -168,7 +168,7 @@ Multiplier Ideal Sheaves and L^2 Methods
 Carlos
 </td>
 <td> 
-<!--title-->
+Uniqueness of Kähler−Ricci solitons
 </td>
 <td>
 <!--notes-->
