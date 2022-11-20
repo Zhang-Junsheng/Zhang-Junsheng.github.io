@@ -186,7 +186,7 @@ Uniqueness of Kähler−Ricci solitons
 Yueqing
 </td>
 <td> 
-<!--title-->
+Stable bundles and Hermitian-Einstein connections
 </td>
 <td>
 <!--notes-->
