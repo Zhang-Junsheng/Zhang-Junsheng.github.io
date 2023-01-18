@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /rs/
+permalink: /rsfall-2022/
 title: Reading Seminars
 description: 
-nav: true
+nav:
 nav_order: 4
 ---
 
