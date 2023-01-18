@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /Spring-2023/
-title: Reading Seminars
+title: Reading Seminars--Spring 2023
 description: 
 nav:
 nav_order: 4
@@ -10,7 +10,7 @@ nav_order: 4
 
 <p>Spring 2023 we have a reading seminar on complex geometry. We will be meeting Friday at 2pm--4pm (PT time) in 748 Evans Hall. Email <a href="mailto:jszhang@berkeley.edu"> Junsheng </a> if you want to be added to the mailing list. </p>
 
-<p>The topic is deformed Hermitian-Yang-Mills (dHYM) equations. You can sign up for a talk using this <a href="https://docs.google.com/spreadsheets/d/1XxCFOiF1b4nFCLuem0fPt7d5ALxDJKVjxgu0Sw6DPUM/edit?usp=sharing"> google sheet. </a> </p>
+<p>The topic for this semester is deformed Hermitian-Yang-Mills (dHYM) equations. You can sign up for a talk using this <a href="https://docs.google.com/spreadsheets/d/1XxCFOiF1b4nFCLuem0fPt7d5ALxDJKVjxgu0Sw6DPUM/edit?usp=sharing"> google sheet. </a> </p>
 
 <p> <table cellpadding="4" cellspacing="2" border="8">
   
