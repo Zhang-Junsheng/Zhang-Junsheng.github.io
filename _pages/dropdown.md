@@ -6,7 +6,7 @@ nav_order: 4
 dropdown: true
 children: 
     - title: Spring 2023
-      permalink: /publications/
+      permalink: /Spring-2023/
     - title: Fall 2022
-      permalink: /projects/
+      permalink: /rsfall-2022/
 ---
