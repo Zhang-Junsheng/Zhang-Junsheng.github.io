@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /rsfall-2022/
-title: Reading Seminars
+title: Reading Seminars--Fall 2022
 description: 
 nav:
 nav_order: 4
