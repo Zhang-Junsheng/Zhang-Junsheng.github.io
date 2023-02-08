@@ -55,7 +55,7 @@ $C^2$-estimate assuming gradient bound
 Junsheng
 </td>
 <td> 
-Numerical obstructions and K\"ahler surfaces case
+Numerical obstructions and the result on Kähler surfaces
 </td>
 <td>
 <!--notes-->
@@ -69,7 +69,7 @@ Numerical obstructions and K\"ahler surfaces case
 Junsheng
 </td>
 <td> 
-A priori estimate
+Part I of G.Chen's result
 </td>
 <td>
 <!--notes-->
