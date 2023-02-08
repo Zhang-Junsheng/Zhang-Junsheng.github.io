@@ -29,10 +29,10 @@ nav_order: 4
   
 <td align="left"> Jan 20</td>
 <td>
-<!--name-->
+Junsheng
 </td>
 <td> 
-Organizational meeting
+Organizational meeting and an introduction to dHYM
 </td>
 <td>
 <!--notes-->
@@ -41,10 +41,10 @@ Organizational meeting
 
 <td align="left"> Jan 27</td>
 <td>
-
+Carlos
 </td>
 <td> 
-
+$C^2$-estimate assuming gradient bound
 </td>
 <td>
 <!--notes-->
@@ -54,10 +54,10 @@ Organizational meeting
   
 <td align="left"> Feb 03</td>
 <td>
-
+Junsheng
 </td>
 <td> 
-
+Numerical obstructions and K\"ahler surfaces case
 </td>
 <td>
 <!--notes-->
@@ -65,5 +65,16 @@ Organizational meeting
 <tr>
 
   
-  
+   
+<td align="left"> Feb 03</td>
+<td>
+Junsheng
+</td>
+<td> 
+A priori estimate
+</td>
+<td>
+<!--notes-->
+</td>
+<tr>
  
