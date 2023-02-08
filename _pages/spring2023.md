@@ -42,7 +42,7 @@ Organizational meeting and an introduction to dHYM
 Carlos
 </td>
 <td> 
-$C^2$-estimate assuming gradient bound
+C^2-estimate assuming gradient bound
 </td>
 <td>
 <!--notes-->
