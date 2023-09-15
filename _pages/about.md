@@ -17,4 +17,4 @@ selected_papers: # includes a list of papers marked as "selected={true}"
 social:  # includes social icons at the bottom of the page
 ---
 
-I'm a fourth-year graduate student in UC Berkeley studying complex geometry. My advisor is [Song Sun](https://math.berkeley.edu/people/faculty/song-sun). 
+I'm a fifth-year graduate student at UC Berkeley studying complex differential geometry. My advisor is [Song Sun](https://math.berkeley.edu/people/faculty/song-sun). 
