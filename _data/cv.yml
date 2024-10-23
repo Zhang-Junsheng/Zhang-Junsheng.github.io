@@ -5,15 +5,13 @@
       value: Junsheng Zhang
     - name: Date of Birth
       value: 18th May 1998
-    - name: Languages
-      value: Chinese, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD student
+    - title: Ph. D.
       institution: University of California, Berkeley
-      year: 2019--
+      year: 2024
       description:
     - title: B.S. in Mathematics and Applied Mathematics
       institution: University of Science and Technology of China (USTC)
@@ -35,13 +33,6 @@
            # - Sub-description 2.
 
 
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2019
-      items: Guo Moruo Scholarship
-       
 
 - title: Academic Interests
   type: nested_list
