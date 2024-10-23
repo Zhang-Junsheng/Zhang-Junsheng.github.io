@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://math.berkeley.edu](https://www.slmath.org'> SLMath</a>
+subtitle: <a href='https://www.slmath.org'>SLMath</a>
 
 profile:
   align: right
