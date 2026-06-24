@@ -1,6 +1,6 @@
 # 中文个人网站
 
-这是一个可以直接部署到 GitHub Pages 的中文个人网站模板，使用纯 HTML、CSS 和 JavaScript 构建，不依赖 React、Vue、Node.js、数据库、后端服务、付费服务或 API Key。
+这是一个可以直接部署到 GitHub Pages 的中文个人网站，使用纯 HTML、CSS 和 JavaScript 构建，不依赖 React、Vue、Node.js、数据库、后端服务、付费服务或 API Key。
 
 ## 文件结构
 
@@ -9,6 +9,8 @@
 ├── index.html
 ├── style.css
 ├── script.js
+├── assets/
+│   └── profile.jpg
 ├── README.md
 └── .gitignore
 ```
@@ -17,13 +19,14 @@
 
 打开 `index.html`，修改以下位置：
 
-- 网站标题：`<title>张俊生 | 个人网站</title>`
-- 首屏标题：`你好，我是张俊生`
-- 首屏简介：`我喜欢把复杂想法整理成清晰、可靠、易用的作品。`
+- 网站标题：`<title>Junsheng Zhang（张俊升）| 个人网站</title>`
+- 首屏标题：`你好，我是 Junsheng Zhang（张俊升）`
+- 首屏简介：`我目前是 NYU Courant 的 Courant Instructor...`
 - 关于我内容：`id="about"` 这一段
 - GitHub 地址：`https://github.com/Zhang-Junsheng`
-- 邮箱地址：`your-email@example.com`
-- 页脚姓名：`张俊生`
+- 邮箱地址：`jz7561@nyu.edu`
+- 办公室：`Warren Weaver Hall 925`
+- 页脚姓名：`Junsheng Zhang`
 
 如果修改了姓名，也建议同步修改 `meta description` 和导航栏里的品牌文字。
 
@@ -31,27 +34,27 @@
 
 在 `index.html` 中找到 `id="projects"` 区域，每一个项目都在一个 `<article class="project-card">` 里。
 
-你可以修改：
+当前 3 个卡片分别是研究论文、教学、研讨班与笔记。你可以修改：
 
-- `项目标题`：例如 `<h3>个人作品集网站</h3>`
+- `项目标题`：例如 `<h3>研究论文</h3>`
 - `项目描述`：项目卡片中的 `<p>`
-- `项目链接`：把 `href="#contact"` 改成真实项目地址，例如 `href="https://github.com/你的用户名/项目名"`
+- `项目链接`：修改卡片里 `<a>` 的 `href`，可以指向论文页、课程页、GitHub 仓库或其他真实地址
 
 如果需要更多项目，复制一个完整的 `<article class="project-card">...</article>`，然后修改编号、标题、描述和链接即可。
 
 ## 如何添加图片
 
-建议在根目录创建一个 `assets` 文件夹：
+当前头像图片位于：
 
 ```text
 assets/
-└── avatar.jpg
+└── profile.jpg
 ```
 
-然后在 `index.html` 中需要显示图片的位置添加：
+如果要更换头像，可以把新图片放到 `assets` 文件夹，然后在 `index.html` 中修改图片路径：
 
 ```html
-<img src="./assets/avatar.jpg" alt="你的头像">
+<img src="./assets/profile.jpg" alt="Junsheng Zhang 的照片">
 ```
 
 注意：
