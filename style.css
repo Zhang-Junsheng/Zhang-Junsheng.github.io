@@ -420,6 +420,33 @@ h3 {
   color: var(--color-muted);
 }
 
+.resource-list {
+  display: grid;
+  gap: 12px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.resource-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.resource-meta {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  border: 1px solid rgba(17, 103, 216, 0.24);
+  border-radius: 999px;
+  color: var(--color-primary-dark);
+  font-size: 0.78rem;
+  font-weight: 850;
+  padding: 0 8px;
+}
+
 .info-item .seminar-sentence {
   margin-bottom: 12px;
 }
