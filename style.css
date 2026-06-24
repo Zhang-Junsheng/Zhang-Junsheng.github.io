@@ -352,7 +352,6 @@ h3 {
   margin: 36px 0 0;
   padding: 0;
   list-style: none;
-  counter-reset: publication;
 }
 
 .publication-item {
@@ -362,7 +361,6 @@ h3 {
   background: #ffffff;
   padding: 24px 26px 24px 74px;
   box-shadow: var(--shadow-card);
-  counter-increment: publication;
 }
 
 .publication-item::before {
@@ -370,7 +368,7 @@ h3 {
   left: 24px;
   top: 24px;
   color: var(--color-primary);
-  content: counter(publication, decimal-leading-zero);
+  content: counter(list-item, decimal-leading-zero);
   font-weight: 850;
 }
 
