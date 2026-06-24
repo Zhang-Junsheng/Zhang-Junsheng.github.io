@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      data-i18n-content="metaDescription"
+      name="description"
+      content="Junsheng Zhang（张俊升）的中文个人网站，展示研究、教学、研讨班与联系方式。"
+    >
+    <title>Junsheng Zhang（张俊升）| 个人网站</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skipLink">跳到主要内容</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="主导航" data-i18n-aria-label="mainNavAria">
+        <a class="brand" href="#home" aria-label="返回首页" data-i18n-aria-label="brandAria">
+          <span class="brand-mark" aria-hidden="true">升</span>
+          <span>Junsheng Zhang</span>
+        </a>
+
+        <div class="nav-right">
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="#home" data-i18n="navHome">首页</a></li>
+            <li><a href="#about" data-i18n="navAbout">关于我</a></li>
+            <li><a href="#projects" data-i18n="navProjects">项目</a></li>
+            <li><a href="#contact" data-i18n="navContact">联系方式</a></li>
+          </ul>
+
+          <div class="nav-actions">
+            <button
+              class="lang-toggle"
+              type="button"
+              data-lang-toggle
+              aria-label="Switch to English"
+              data-i18n-aria-label="langToggleAria"
+            >
+              <span data-i18n="langToggleText">EN</span>
+            </button>
+
+            <button
+              class="nav-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="nav-menu"
+              aria-label="打开导航菜单"
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section" id="home" aria-labelledby="hero-title">
+        <div class="hero-content reveal">
+          <p class="eyebrow" data-i18n="heroEyebrow">个人主页</p>
+          <h1 id="hero-title" data-i18n="heroTitle">你好，我是 Junsheng Zhang（张俊升）</h1>
+          <p class="hero-text" data-i18n="heroText">
+            我目前是 NYU Courant 的 Courant Instructor，研究兴趣集中在
+            复几何、Kähler 几何和 Kähler-Ricci 流等方向。
+          </p>
+          <a class="button" href="#projects" data-i18n="heroButton">查看我的项目</a>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="portrait-frame">
+            <img
+              src="./assets/profile.jpg"
+              alt="Junsheng Zhang 的照片"
+              data-i18n-alt="profileAlt"
+              width="617"
+              height="720"
+              fetchpriority="high"
+            >
+          </div>
+          <div class="profile-card">
+            <div>
+              <p class="profile-name">Junsheng Zhang</p>
+              <p class="profile-role" data-i18n="profileRole">Courant Instructor, NYU Courant</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about" aria-labelledby="about-title">
+        <div class="section-inner reveal">
+          <p class="eyebrow" data-i18n="aboutEyebrow">About</p>
+          <h2 id="about-title" data-i18n="aboutTitle">关于我</h2>
+          <p data-i18n="aboutText">
+            我目前在 NYU Courant 担任 Courant Instructor（博士后职位），
+            与 Valentino Tosatti 合作。此前，我于 2024 年秋季在 SL Math
+            担任博士后；博士毕业于 UC Berkeley，导师是 Song Sun。
+            这个网站用于整理我的研究、教学、研讨班与联系方式。
+          </p>
+          <div class="about-links" aria-label="相关链接" data-i18n-aria-label="aboutLinksAria">
+            <a href="https://cims.nyu.edu/dynamic/" target="_blank" rel="noopener noreferrer">
+              NYU Courant
+            </a>
+            <a href="https://drive.google.com/drive/folders/1j9rYlbDBwxDfrcmy3tBqa2WFreYxfDbY?usp=share_link" target="_blank" rel="noopener noreferrer">
+              CV
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects" aria-labelledby="projects-title">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <p class="eyebrow" data-i18n="projectsEyebrow">Work</p>
+            <h2 id="projects-title" data-i18n="projectsTitle">项目展示</h2>
+            <p data-i18n="projectsIntro">这里汇总研究论文、教学和研讨班相关内容。</p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card reveal">
+              <p class="project-number">01</p>
+              <h3 data-i18n="researchTitle">研究论文</h3>
+              <p data-i18n="researchText">
+                研究主题包括 Kähler-Ricci flow、cscK surfaces、
+                Ricci bounded limit spaces 与相关复几何问题。
+              </p>
+              <a
+                href="https://sites.google.com/view/junsheng--zhang/research"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="查看研究论文"
+                data-i18n="researchLink"
+                data-i18n-aria-label="researchLinkAria"
+              >查看研究</a>
+            </article>
+
+            <article class="project-card reveal">
+              <p class="project-number">02</p>
+              <h3 data-i18n="teachingTitle">教学</h3>
+              <p data-i18n="teachingText">
+                在 NYU 讲授 Analysis，课程时间包括 Spring 2025、
+                Fall 2025 和 Spring 2026。
+              </p>
+              <a
+                href="https://sites.google.com/view/junsheng--zhang/teaching"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="查看教学内容"
+                data-i18n="teachingLink"
+                data-i18n-aria-label="teachingLinkAria"
+              >查看教学</a>
+            </article>
+
+            <article class="project-card reveal">
+              <p class="project-number">03</p>
+              <h3 data-i18n="seminarTitle">研讨班与笔记</h3>
+              <p data-i18n="seminarText">
+                参与组织 informal online complex geometry seminar，
+                并整理相关讨论与笔记入口。
+              </p>
+              <a
+                href="https://sites.google.com/view/junsheng--zhang/seminars-and-notes"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="查看研讨班与笔记"
+                data-i18n="seminarLink"
+                data-i18n-aria-label="seminarLinkAria"
+              >查看笔记</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
+        <div class="section-inner reveal">
+          <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
+          <h2 id="contact-title" data-i18n="contactTitle">联系方式</h2>
+          <div class="contact-list">
+            <a href="https://github.com/Zhang-Junsheng" target="_blank" rel="noopener noreferrer">
+              <span data-i18n="githubContact">GitHub：github.com/Zhang-Junsheng</span>
+            </a>
+            <a href="mailto:jz7561@nyu.edu">
+              <span data-i18n="emailContact">邮箱：jz7561@nyu.edu</span>
+            </a>
+            <p data-i18n="officeContact">办公室：Warren Weaver Hall 925</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> <span data-i18n="footerRights">Junsheng Zhang. 保留所有权利。</span></p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
