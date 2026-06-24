@@ -42,6 +42,16 @@
 
 如果需要更多项目，复制一个完整的 `<article class="project-card">...</article>`，然后修改编号、标题、描述和链接即可。
 
+## 如何修改中英文内容
+
+页面右上角有语言切换按钮，使用 `script.js` 中的 `translations` 字典管理中英文文案。
+
+- 中文文案在 `translations.zh`
+- 英文文案在 `translations.en`
+- `index.html` 里的 `data-i18n`、`data-i18n-aria-label`、`data-i18n-alt` 和 `data-i18n-content` 对应字典里的键名
+
+如果新增一段需要翻译的文字，给 HTML 元素添加一个新的 `data-i18n="键名"`，然后在 `script.js` 的 `zh` 和 `en` 中都补上对应文案。
+
 ## 如何添加图片
 
 当前头像图片位于：
