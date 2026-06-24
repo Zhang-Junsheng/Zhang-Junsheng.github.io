@@ -9,7 +9,7 @@ const metaElements = document.querySelectorAll("[data-i18n-content]");
 const revealElements = document.querySelectorAll(".reveal");
 const sections = document.querySelectorAll("main section[id]");
 const year = document.querySelector("#year");
-const languageStorageKey = "junsheng-site-language";
+const languageStorageKey = "junsheng-site-language-v2";
 
 const translations = {
   zh: {
@@ -223,4 +223,4 @@ if ("IntersectionObserver" in window) {
   revealElements.forEach((element) => element.classList.add("is-visible"));
 }
 
-applyLanguage(readStoredLanguage() ?? "zh");
+applyLanguage(readStoredLanguage() ?? "en");
