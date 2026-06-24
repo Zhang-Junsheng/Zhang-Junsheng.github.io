@@ -246,9 +246,39 @@ h3 {
 
 .hero-text {
   max-width: 680px;
-  margin: 24px 0 32px;
+  margin: 24px 0 18px;
   color: var(--color-muted);
   font-size: 1.22rem;
+}
+
+.hero-about {
+  max-width: 740px;
+  margin: 0 0 24px;
+  color: var(--color-muted);
+  font-size: 1.02rem;
+}
+
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0 0 30px;
+}
+
+.hero-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  color: var(--color-primary-dark);
+  font-weight: 800;
+  padding: 0 14px;
+}
+
+.hero-links a:hover {
+  border-color: rgba(17, 103, 216, 0.35);
+  background: var(--color-bg-soft);
 }
 
 .button {
@@ -341,38 +371,10 @@ h3 {
   max-width: 880px;
 }
 
-.about {
-  border-top: 1px solid var(--color-border);
-}
-
-.about p:not(.eyebrow),
 .section-heading p {
   margin: 18px 0 0;
   color: var(--color-muted);
   font-size: 1.08rem;
-}
-
-.about-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 26px;
-}
-
-.about-links a {
-  display: inline-flex;
-  align-items: center;
-  min-height: 42px;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
-  color: var(--color-primary-dark);
-  font-weight: 800;
-  padding: 0 14px;
-}
-
-.about-links a:hover {
-  border-color: rgba(17, 103, 216, 0.35);
-  background: var(--color-bg-soft);
 }
 
 .projects {

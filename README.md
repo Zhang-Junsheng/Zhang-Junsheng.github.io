@@ -22,7 +22,7 @@
 - 网站标题：`<title>Junsheng Zhang（张俊升）| 个人网站</title>`
 - 首屏标题：`你好，我是 Junsheng Zhang（张俊升）`
 - 首屏简介：`我目前是 NYU Courant 的 Courant Instructor...`
-- 关于我内容：`id="about"` 这一段
+- 首页个人介绍：`data-i18n="homeAboutText"` 对应的中英文文案
 - GitHub 地址：`https://github.com/Zhang-Junsheng`
 - 邮箱地址：`jz7561@nyu.edu`
 - 办公室：`Warren Weaver Hall 925`
@@ -110,6 +110,6 @@ http://localhost:8000
 
 - `index.html` 位于仓库根目录
 - `style.css` 和 `script.js` 使用相对路径引用
-- 导航链接指向页面内的 `#home`、`#about`、`#projects`、`#contact`
+- 导航链接指向页面内的 `#home`、`#projects`、`#contact`
 - 页面在手机端不会出现横向滚动条
 - 没有 API Key、Token、密码或其他秘密信息
