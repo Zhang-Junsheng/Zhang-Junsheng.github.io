@@ -95,17 +95,6 @@ button:focus-visible {
   color: var(--color-text);
 }
 
-.brand-mark {
-  display: grid;
-  width: 34px;
-  height: 34px;
-  place-items: center;
-  border-radius: var(--radius);
-  background: var(--color-primary);
-  color: #ffffff;
-  box-shadow: 0 8px 18px rgba(17, 103, 216, 0.24);
-}
-
 .nav-right,
 .nav-actions {
   display: flex;
