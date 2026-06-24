@@ -10,6 +10,10 @@
   --shadow-card: 0 12px 28px rgba(23, 32, 51, 0.08);
   --radius: 8px;
   --container: 1120px;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC",
+    "Microsoft YaHei", Arial, sans-serif;
+  --font-kai: "Kaiti SC", "STKaiti", "KaiTi", "KaiTi_GB2312", "楷体",
+    "DFKai-SB", serif;
 }
 
 *,
@@ -29,10 +33,12 @@ body {
   overflow-x: hidden;
   background: var(--color-bg);
   color: var(--color-text);
-  font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC",
-    "Microsoft YaHei", Arial, sans-serif;
+  font-family: var(--font-sans);
   line-height: 1.7;
+}
+
+html:lang(zh-CN) body {
+  font-family: var(--font-kai);
 }
 
 body.nav-open {
@@ -420,9 +426,45 @@ h3 {
   color: var(--color-muted);
 }
 
+.resource-list {
+  display: grid;
+  gap: 12px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.resource-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.resource-meta {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  border: 1px solid rgba(17, 103, 216, 0.24);
+  border-radius: 999px;
+  color: var(--color-primary-dark);
+  font-size: 0.78rem;
+  font-weight: 850;
+  padding: 0 8px;
+}
+
+.info-item .seminar-sentence {
+  margin-bottom: 12px;
+}
+
+.info-item .seminar-sentence:last-child {
+  margin-bottom: 0;
+}
+
 .info-item a {
   color: var(--color-primary-dark);
   font-weight: 800;
+  overflow-wrap: anywhere;
 }
 
 .info-item a:hover {
