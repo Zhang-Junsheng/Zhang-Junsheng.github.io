@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="张俊生的中文个人网站，展示个人介绍、项目作品和联系方式。"
+    >
+    <title>张俊生 | 个人网站</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="主导航">
+        <a class="brand" href="#home" aria-label="返回首页">
+          <span class="brand-mark" aria-hidden="true">张</span>
+          <span>张俊生</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          aria-label="打开导航菜单"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home">首页</a></li>
+          <li><a href="#about">关于我</a></li>
+          <li><a href="#projects">项目</a></li>
+          <li><a href="#contact">联系方式</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section" id="home" aria-labelledby="hero-title">
+        <div class="hero-content reveal">
+          <p class="eyebrow">个人主页</p>
+          <h1 id="hero-title">你好，我是张俊生</h1>
+          <p class="hero-text">
+            我喜欢把复杂想法整理成清晰、可靠、易用的作品。
+          </p>
+          <a class="button" href="#projects">查看我的项目</a>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="profile-card">
+            <div class="avatar" aria-hidden="true">张</div>
+            <div>
+              <p class="profile-name">张俊生</p>
+              <p class="profile-role">创作者 / 开发者</p>
+            </div>
+          </div>
+          <div class="signal-grid" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about" aria-labelledby="about-title">
+        <div class="section-inner reveal">
+          <p class="eyebrow">About</p>
+          <h2 id="about-title">关于我</h2>
+          <p>
+            我关注清晰表达、稳定实现和长期可维护的创作方式。
+            这个网站用于整理个人介绍、阶段性项目和联系方式，也会持续记录
+            我在学习、研究与实践中的新成果。
+          </p>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects" aria-labelledby="projects-title">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Work</p>
+            <h2 id="projects-title">项目展示</h2>
+            <p>精选项目与阶段性成果会在这里持续更新。</p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card reveal">
+              <p class="project-number">01</p>
+              <h3>个人作品集网站</h3>
+              <p>
+                一个用于展示个人介绍、项目经历和联系方式的静态网站模板。
+              </p>
+              <a href="#contact" aria-label="了解个人作品集网站项目">了解更多</a>
+            </article>
+
+            <article class="project-card reveal">
+              <p class="project-number">02</p>
+              <h3>学习笔记整理</h3>
+              <p>
+                将课程、论文或实践经验整理成结构清晰、方便复用的知识页面。
+              </p>
+              <a href="#contact" aria-label="了解学习笔记整理项目">了解更多</a>
+            </article>
+
+            <article class="project-card reveal">
+              <p class="project-number">03</p>
+              <h3>轻量任务面板</h3>
+              <p>
+                使用纯前端技术制作的任务展示页面，适合记录计划和阶段成果。
+              </p>
+              <a href="#contact" aria-label="了解轻量任务面板项目">了解更多</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
+        <div class="section-inner reveal">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">联系方式</h2>
+          <div class="contact-list">
+            <a href="https://github.com/Zhang-Junsheng" target="_blank" rel="noopener noreferrer">
+              GitHub：github.com/Zhang-Junsheng
+            </a>
+            <a href="mailto:your-email@example.com">邮箱：your-email@example.com</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> 张俊生. 保留所有权利。</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
