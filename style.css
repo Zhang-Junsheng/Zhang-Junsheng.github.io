@@ -306,29 +306,19 @@ h3 {
 
 .hero-visual {
   position: relative;
-  min-height: 420px;
+  aspect-ratio: 617 / 720;
+  min-height: 0;
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
-  background:
-    linear-gradient(135deg, rgba(17, 103, 216, 0.12), rgba(255, 255, 255, 0.94)),
-    #ffffff;
+  background: #ffffff;
   box-shadow: var(--shadow-soft);
-  overflow: hidden;
-}
-
-.hero-visual::before {
-  position: absolute;
-  inset: 22px;
-  border: 1px solid rgba(17, 103, 216, 0.16);
-  border-radius: var(--radius);
-  content: "";
+  padding: 14px;
 }
 
 .portrait-frame {
-  position: absolute;
-  inset: 22px 22px 104px;
   overflow: hidden;
-  border: 1px solid rgba(217, 229, 245, 0.9);
+  width: 100%;
+  height: 100%;
   border-radius: var(--radius);
   background: #ffffff;
 }
@@ -337,34 +327,8 @@ h3 {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center 18%;
-}
-
-.profile-card {
-  position: absolute;
-  left: 32px;
-  right: 32px;
-  bottom: 32px;
-  display: flex;
-  align-items: center;
-  gap: 18px;
-  border: 1px solid rgba(217, 229, 245, 0.9);
-  border-radius: var(--radius);
-  background: rgba(255, 255, 255, 0.92);
-  padding: 18px 20px;
-  box-shadow: var(--shadow-card);
-}
-
-.profile-name {
-  margin: 0;
-  font-size: 1.2rem;
-  font-weight: 850;
-}
-
-.profile-role {
-  margin: 4px 0 0;
-  color: var(--color-muted);
+  object-fit: contain;
+  object-position: center;
 }
 
 .section-inner {
@@ -479,42 +443,6 @@ h3 {
   text-underline-offset: 4px;
 }
 
-.contact .section-inner {
-  max-width: 760px;
-}
-
-.contact-list {
-  display: grid;
-  gap: 14px;
-  margin-top: 28px;
-}
-
-.contact-list a {
-  display: flex;
-  align-items: center;
-  min-height: 54px;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
-  background: #ffffff;
-  color: var(--color-primary-dark);
-  font-weight: 750;
-  line-height: 1.45;
-  overflow-wrap: anywhere;
-  padding: 12px 18px;
-  box-shadow: 0 10px 22px rgba(23, 32, 51, 0.06);
-}
-
-.contact-list a:hover {
-  border-color: rgba(17, 103, 216, 0.35);
-}
-
-.contact-list p {
-  margin: 0;
-  color: var(--color-muted);
-  font-weight: 700;
-  overflow-wrap: anywhere;
-}
-
 .site-footer {
   border-top: 1px solid var(--color-border);
   background: #f9fbff;
@@ -604,10 +532,6 @@ h3 {
     font-size: 2.3rem;
   }
 
-  .hero-visual {
-    min-height: 520px;
-  }
-
   .publication-item {
     padding: 22px 22px 22px 64px;
   }
@@ -636,18 +560,8 @@ h3 {
     font-size: 1.08rem;
   }
 
-  .portrait-frame {
-    left: 18px;
-    right: 18px;
-    top: 24px;
-    bottom: 104px;
-  }
-
-  .profile-card {
-    left: 18px;
-    right: 18px;
-    bottom: 22px;
-    padding: 16px;
+  .hero-visual {
+    padding: 10px;
   }
 }
 
