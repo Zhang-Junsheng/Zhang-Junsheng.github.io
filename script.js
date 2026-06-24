@@ -65,7 +65,7 @@ const translations = {
     langToggleAria: "Switch to Chinese",
     heroEyebrow: "Personal Homepage",
     heroTitle: "Hello, I am Junsheng Zhang",
-    heroText: "My research interests center on Kähler geometry. In particular, canonical metrics in Kähler geometry and Kähler-Ricci flows.",
+    heroText: "My research interests center on Kähler geometry. In particular, canonical metrics in Kahler geometry and Kahler-Ricci flows.",
     homeAboutText: "I am currently a Courant Instructor, a postdoctoral position, at NYU Courant, working with Valentino Tosatti. Before this, I was a postdoc at SL Math in Fall 2024. I completed my Ph.D. at UC Berkeley under the supervision of Song Sun.",
     homeLinksAria: "Related links",
     heroButton: "View Research",
