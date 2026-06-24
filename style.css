@@ -420,9 +420,18 @@ h3 {
   color: var(--color-muted);
 }
 
+.info-item .seminar-sentence {
+  margin-bottom: 12px;
+}
+
+.info-item .seminar-sentence:last-child {
+  margin-bottom: 0;
+}
+
 .info-item a {
   color: var(--color-primary-dark);
   font-weight: 800;
+  overflow-wrap: anywhere;
 }
 
 .info-item a:hover {
