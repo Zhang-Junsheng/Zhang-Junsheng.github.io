@@ -61,7 +61,7 @@ const translations = {
     navSeminars: "Seminars and notes",
     navToggleOpen: "Open navigation menu",
     navToggleClose: "Close navigation menu",
-    langToggleText: "ZH",
+    langToggleText: "中文",
     langToggleAria: "Switch to Chinese",
     heroEyebrow: "Personal Homepage",
     heroTitle: "Hello, I am Junsheng Zhang",
