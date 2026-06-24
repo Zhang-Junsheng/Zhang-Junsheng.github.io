@@ -246,9 +246,39 @@ h3 {
 
 .hero-text {
   max-width: 680px;
-  margin: 24px 0 32px;
+  margin: 24px 0 18px;
   color: var(--color-muted);
   font-size: 1.22rem;
+}
+
+.hero-about {
+  max-width: 740px;
+  margin: 0 0 24px;
+  color: var(--color-muted);
+  font-size: 1.02rem;
+}
+
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0 0 30px;
+}
+
+.hero-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  color: var(--color-primary-dark);
+  font-weight: 800;
+  padding: 0 14px;
+}
+
+.hero-links a:hover {
+  border-color: rgba(17, 103, 216, 0.35);
+  background: var(--color-bg-soft);
 }
 
 .button {
@@ -276,29 +306,19 @@ h3 {
 
 .hero-visual {
   position: relative;
-  min-height: 420px;
+  aspect-ratio: 617 / 720;
+  min-height: 0;
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
-  background:
-    linear-gradient(135deg, rgba(17, 103, 216, 0.12), rgba(255, 255, 255, 0.94)),
-    #ffffff;
+  background: #ffffff;
   box-shadow: var(--shadow-soft);
-  overflow: hidden;
-}
-
-.hero-visual::before {
-  position: absolute;
-  inset: 22px;
-  border: 1px solid rgba(17, 103, 216, 0.16);
-  border-radius: var(--radius);
-  content: "";
+  padding: 14px;
 }
 
 .portrait-frame {
-  position: absolute;
-  inset: 22px 22px 104px;
   overflow: hidden;
-  border: 1px solid rgba(217, 229, 245, 0.9);
+  width: 100%;
+  height: 100%;
   border-radius: var(--radius);
   background: #ffffff;
 }
@@ -307,81 +327,27 @@ h3 {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center 18%;
-}
-
-.profile-card {
-  position: absolute;
-  left: 32px;
-  right: 32px;
-  bottom: 32px;
-  display: flex;
-  align-items: center;
-  gap: 18px;
-  border: 1px solid rgba(217, 229, 245, 0.9);
-  border-radius: var(--radius);
-  background: rgba(255, 255, 255, 0.92);
-  padding: 18px 20px;
-  box-shadow: var(--shadow-card);
-}
-
-.profile-name {
-  margin: 0;
-  font-size: 1.2rem;
-  font-weight: 850;
-}
-
-.profile-role {
-  margin: 4px 0 0;
-  color: var(--color-muted);
+  object-fit: contain;
+  object-position: center;
 }
 
 .section-inner {
   max-width: 880px;
 }
 
-.about {
-  border-top: 1px solid var(--color-border);
-}
-
-.about p:not(.eyebrow),
 .section-heading p {
   margin: 18px 0 0;
   color: var(--color-muted);
   font-size: 1.08rem;
 }
 
-.about-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 26px;
-}
-
-.about-links a {
-  display: inline-flex;
-  align-items: center;
-  min-height: 42px;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
-  color: var(--color-primary-dark);
-  font-weight: 800;
-  padding: 0 14px;
-}
-
-.about-links a:hover {
-  border-color: rgba(17, 103, 216, 0.35);
-  background: var(--color-bg-soft);
-}
-
-.projects {
+.research {
   width: 100%;
   max-width: none;
   background: var(--color-bg-soft);
 }
 
-.projects .section-inner {
+.research .section-inner {
   width: min(100% - 40px, var(--container));
   max-width: var(--container);
   margin: 0 auto;
@@ -391,15 +357,60 @@ h3 {
   max-width: 720px;
 }
 
-.project-grid {
+.publication-list {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 20px;
+  gap: 16px;
+  margin: 36px 0 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: publication;
+}
+
+.publication-item {
+  position: relative;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: #ffffff;
+  padding: 24px 26px 24px 74px;
+  box-shadow: var(--shadow-card);
+  counter-increment: publication;
+}
+
+.publication-item::before {
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  color: var(--color-primary);
+  content: counter(publication, decimal-leading-zero);
+  font-weight: 850;
+}
+
+.publication-item a {
+  color: var(--color-text);
+  font-size: 1.08rem;
+  font-weight: 850;
+  line-height: 1.35;
+}
+
+.publication-item a:hover {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.publication-item p {
+  margin: 8px 0 0;
+  color: var(--color-muted);
+  font-size: 0.98rem;
+}
+
+.info-list {
+  display: grid;
+  gap: 18px;
   margin-top: 36px;
 }
 
-.project-card {
-  min-height: 270px;
+.info-item {
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
   background: #ffffff;
@@ -411,67 +422,25 @@ h3 {
     transform 180ms ease;
 }
 
-.project-card:hover {
+.info-item:hover {
   transform: translateY(-4px);
   border-color: rgba(17, 103, 216, 0.35);
   box-shadow: 0 18px 38px rgba(23, 32, 51, 0.12);
 }
 
-.project-number {
-  margin: 0 0 42px;
-  color: var(--color-primary);
-  font-weight: 850;
-}
-
-.project-card p:not(.project-number) {
+.info-item p {
   margin: 14px 0 24px;
   color: var(--color-muted);
 }
 
-.project-card a {
+.info-item a {
   color: var(--color-primary-dark);
   font-weight: 800;
 }
 
-.project-card a:hover {
+.info-item a:hover {
   text-decoration: underline;
   text-underline-offset: 4px;
-}
-
-.contact .section-inner {
-  max-width: 760px;
-}
-
-.contact-list {
-  display: grid;
-  gap: 14px;
-  margin-top: 28px;
-}
-
-.contact-list a {
-  display: flex;
-  align-items: center;
-  min-height: 54px;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
-  background: #ffffff;
-  color: var(--color-primary-dark);
-  font-weight: 750;
-  line-height: 1.45;
-  overflow-wrap: anywhere;
-  padding: 12px 18px;
-  box-shadow: 0 10px 22px rgba(23, 32, 51, 0.06);
-}
-
-.contact-list a:hover {
-  border-color: rgba(17, 103, 216, 0.35);
-}
-
-.contact-list p {
-  margin: 0;
-  color: var(--color-muted);
-  font-weight: 700;
-  overflow-wrap: anywhere;
 }
 
 .site-footer {
@@ -563,16 +532,8 @@ h3 {
     font-size: 2.3rem;
   }
 
-  .hero-visual {
-    min-height: 520px;
-  }
-
-  .project-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .project-card {
-    min-height: auto;
+  .publication-item {
+    padding: 22px 22px 22px 64px;
   }
 }
 
@@ -599,18 +560,8 @@ h3 {
     font-size: 1.08rem;
   }
 
-  .portrait-frame {
-    left: 18px;
-    right: 18px;
-    top: 24px;
-    bottom: 104px;
-  }
-
-  .profile-card {
-    left: 18px;
-    right: 18px;
-    bottom: 22px;
-    padding: 16px;
+  .hero-visual {
+    padding: 10px;
   }
 }
 

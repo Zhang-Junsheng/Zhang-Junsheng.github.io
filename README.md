@@ -22,25 +22,28 @@
 - 网站标题：`<title>Junsheng Zhang（张俊升）| 个人网站</title>`
 - 首屏标题：`你好，我是 Junsheng Zhang（张俊升）`
 - 首屏简介：`我目前是 NYU Courant 的 Courant Instructor...`
-- 关于我内容：`id="about"` 这一段
-- GitHub 地址：`https://github.com/Zhang-Junsheng`
-- 邮箱地址：`jz7561@nyu.edu`
-- 办公室：`Warren Weaver Hall 925`
+- 首页个人介绍：`data-i18n="homeAboutText"` 对应的中英文文案
+- 首页链接：`NYU Courant` 和 `CV`
 - 页脚姓名：`Junsheng Zhang`
 
 如果修改了姓名，也建议同步修改 `meta description` 和导航栏里的品牌文字。
 
-## 如何更换项目内容
+## 如何维护 Research、Teaching 和 Seminars
 
-在 `index.html` 中找到 `id="projects"` 区域，每一个项目都在一个 `<article class="project-card">` 里。
+在 `index.html` 中找到对应区域：
 
-当前 3 个卡片分别是研究论文、教学、研讨班与笔记。你可以修改：
+- Research：`id="research"`
+- Teaching：`id="teaching"`
+- Seminars and notes：`id="seminars"`
 
-- `项目标题`：例如 `<h3>研究论文</h3>`
-- `项目描述`：项目卡片中的 `<p>`
-- `项目链接`：修改卡片里 `<a>` 的 `href`，可以指向论文页、课程页、GitHub 仓库或其他真实地址
+Research 中每篇文章都在一个 `<li class="publication-item">` 里。你可以修改：
 
-如果需要更多项目，复制一个完整的 `<article class="project-card">...</article>`，然后修改编号、标题、描述和链接即可。
+- 文章标题：`<a>` 中的文字
+- 文章链接：`<a href="...">`
+- 作者：第一个 `<p>`
+- 期刊或状态：第二个 `<p>`
+
+Teaching 和 Seminars 中的内容在 `<article class="info-item">` 里，直接修改标题、描述和链接即可。
 
 ## 如何修改中英文内容
 
@@ -70,7 +73,7 @@ assets/
 注意：
 
 - 图片路径使用 `./assets/文件名`
-- 文件名尽量使用英文、小写和短横线，例如 `project-demo.jpg`
+- 文件名尽量使用英文、小写和短横线，例如 `research-photo.jpg`
 - 给图片填写有意义的 `alt` 文本
 - 上传前压缩图片，保持页面加载速度快
 
@@ -110,6 +113,6 @@ http://localhost:8000
 
 - `index.html` 位于仓库根目录
 - `style.css` 和 `script.js` 使用相对路径引用
-- 导航链接指向页面内的 `#home`、`#about`、`#projects`、`#contact`
+- 导航链接指向页面内的 `#home`、`#research`、`#teaching`、`#seminars`
 - 页面在手机端不会出现横向滚动条
 - 没有 API Key、Token、密码或其他秘密信息
