@@ -9,7 +9,7 @@ const metaElements = document.querySelectorAll("[data-i18n-content]");
 const revealElements = document.querySelectorAll(".reveal");
 const sections = document.querySelectorAll("main section[id]");
 const year = document.querySelector("#year");
-const languageStorageKey = "junsheng-site-language";
+const languageStorageKey = "junsheng-site-language-v2";
 
 const translations = {
   zh: {
@@ -27,11 +27,16 @@ const translations = {
     langToggleText: "EN",
     langToggleAria: "切换到英文",
     heroEyebrow: "个人主页",
-    heroTitle: "你好，我是 Junsheng Zhang（张俊升）",
+    heroTitlePrefix: "你好，我是 ",
+    heroTitleSuffix: "（张俊升）",
     heroText: "我的研究兴趣集中在 Kähler 几何，特别是 Kähler 几何中的 canonical metrics 和 Kähler-Ricci flows。",
-    homeAboutText: "我目前在 NYU Courant 担任 Courant Instructor（博士后职位），mentor 是 Valentino Tosatti。此前，我于 2024 年秋季在 SL Math 担任博士后；博士毕业于 UC Berkeley，导师是 Song Sun。",
+    homeAboutBeforeCourant: "我目前在 ",
+    homeAboutBeforeValentino: " 担任 Courant Instructor（博士后职位），mentor 是 ",
+    homeAboutBeforeSlMath: "。此前，我于 2024 年秋季在 ",
+    homeAboutBeforeBerkeley: " 担任博士后；博士毕业于 ",
+    homeAboutBeforeSong: "，导师是 ",
+    homeAboutEnd: "。",
     homeLinksAria: "相关链接",
-    heroButton: "查看 Research",
     profileAlt: "Junsheng Zhang 的照片",
     researchEyebrow: "Research",
     researchSectionTitle: "Research",
@@ -47,7 +52,7 @@ const translations = {
     seminarsLeadEnd: "。",
     seminarsGatLead: "这里也放上 ",
     seminarsGatEnd: "。",
-    footerRights: "Junsheng Zhang. 保留所有权利。",
+    footerRights: "。保留所有权利。",
   },
   en: {
     documentTitle: "Junsheng Zhang | Personal Website",
@@ -64,11 +69,16 @@ const translations = {
     langToggleText: "中文",
     langToggleAria: "Switch to Chinese",
     heroEyebrow: "Personal Homepage",
-    heroTitle: "Hello, I am Junsheng Zhang",
+    heroTitlePrefix: "Hello, I am ",
+    heroTitleSuffix: "",
     heroText: "My research interests center on Kähler geometry. In particular, canonical metrics in Kahler geometry and Kahler-Ricci flows.",
-    homeAboutText: "I am currently a Courant Instructor, a postdoctoral position, at NYU Courant, working with Valentino Tosatti. Before this, I was a postdoc at SL Math in Fall 2024. I completed my Ph.D. at UC Berkeley under the supervision of Song Sun.",
+    homeAboutBeforeCourant: "I am currently a Courant Instructor, a postdoctoral position, at ",
+    homeAboutBeforeValentino: ", working with ",
+    homeAboutBeforeSlMath: ". Before this, I was a postdoc at ",
+    homeAboutBeforeBerkeley: " in Fall 2024. I completed my Ph.D. at ",
+    homeAboutBeforeSong: " under the supervision of ",
+    homeAboutEnd: ".",
     homeLinksAria: "Related links",
-    heroButton: "View Research",
     profileAlt: "Photo of Junsheng Zhang",
     researchEyebrow: "Research",
     researchSectionTitle: "Research",
@@ -84,7 +94,7 @@ const translations = {
     seminarsLeadEnd: ".",
     seminarsGatLead: "Here is the ",
     seminarsGatEnd: ".",
-    footerRights: "Junsheng Zhang. All rights reserved.",
+    footerRights: ". All rights reserved.",
   },
 };
 
@@ -223,4 +233,4 @@ if ("IntersectionObserver" in window) {
   revealElements.forEach((element) => element.classList.add("is-visible"));
 }
 
-applyLanguage(readStoredLanguage() ?? "zh");
+applyLanguage(readStoredLanguage() ?? "en");

@@ -1,28 +1,28 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       data-i18n-content="metaDescription"
       name="description"
-      content="Junsheng Zhang（张俊升）的个人网站，展示研究、教学、研讨班与笔记。"
+      content="Personal website of Junsheng Zhang, featuring research, teaching, seminars, and notes."
     >
-    <title>Junsheng Zhang（张俊升）| 个人网站</title>
+    <title>Junsheng Zhang | Personal Website</title>
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <a class="skip-link" href="#main" data-i18n="skipLink">跳到主要内容</a>
+    <a class="skip-link" href="#main" data-i18n="skipLink">Skip to main content</a>
 
     <header class="site-header">
-      <nav class="nav" aria-label="主导航" data-i18n-aria-label="mainNavAria">
-        <a class="brand" href="#home" aria-label="返回首页" data-i18n-aria-label="brandAria">
+      <nav class="nav" aria-label="Main navigation" data-i18n-aria-label="mainNavAria">
+        <a class="brand" href="#home" aria-label="Back to home" data-i18n-aria-label="brandAria">
           <span>Junsheng Zhang</span>
         </a>
 
         <div class="nav-right">
           <ul class="nav-menu" id="nav-menu">
-            <li><a href="#home" data-i18n="navHome">首页</a></li>
+            <li><a href="#home" data-i18n="navHome">Home</a></li>
             <li><a href="#research" data-i18n="navResearch">Research</a></li>
             <li><a href="#teaching" data-i18n="navTeaching">Teaching</a></li>
             <li><a href="#seminars" data-i18n="navSeminars">Seminars and notes</a></li>
@@ -33,10 +33,10 @@
               class="lang-toggle"
               type="button"
               data-lang-toggle
-              aria-label="Switch to English"
+              aria-label="Switch to Chinese"
               data-i18n-aria-label="langToggleAria"
             >
-              <span data-i18n="langToggleText">EN</span>
+              <span data-i18n="langToggleText">中文</span>
             </button>
 
             <button
@@ -44,7 +44,7 @@
               type="button"
               aria-expanded="false"
               aria-controls="nav-menu"
-              aria-label="打开导航菜单"
+              aria-label="Open navigation menu"
             >
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
@@ -58,33 +58,43 @@
     <main id="main">
       <section class="hero section" id="home" aria-labelledby="hero-title">
         <div class="hero-content reveal">
-          <p class="eyebrow" data-i18n="heroEyebrow">个人主页</p>
-          <h1 id="hero-title" data-i18n="heroTitle">你好，我是 Junsheng Zhang（张俊升）</h1>
+          <p class="eyebrow" data-i18n="heroEyebrow">Personal Homepage</p>
+          <h1 id="hero-title">
+            <span data-i18n="heroTitlePrefix">Hello, I am </span>
+            <a href="#home">Junsheng Zhang</a>
+            <span data-i18n="heroTitleSuffix"></span>
+          </h1>
           <p class="hero-text" data-i18n="heroText">
-            我的研究兴趣集中在 Kähler 几何，特别是 Kähler 几何中的
-            canonical metrics 和 Kähler-Ricci flows。
+            My research interests center on Kähler geometry. In particular,
+            canonical metrics in Kahler geometry and Kahler-Ricci flows.
           </p>
-          <p class="hero-about" data-i18n="homeAboutText">
-            我目前在 NYU Courant 担任 Courant Instructor（博士后职位），
-            mentor 是 Valentino Tosatti。此前，我于 2024 年秋季在 SL Math
-            担任博士后；博士毕业于 UC Berkeley，导师是 Song Sun。
+          <p class="hero-about">
+            <span data-i18n="homeAboutBeforeCourant">
+              I am currently a Courant Instructor, a postdoctoral position, at
+            </span>
+            <a href="https://cims.nyu.edu/dynamic/" target="_blank" rel="noopener noreferrer">NYU Courant</a>
+            <span data-i18n="homeAboutBeforeValentino">, working with</span>
+            <a href="https://cims.nyu.edu/~tosatti/" target="_blank" rel="noopener noreferrer">Valentino Tosatti</a>
+            <span data-i18n="homeAboutBeforeSlMath">. Before this, I was a postdoc at</span>
+            <a href="https://www.slmath.org/" target="_blank" rel="noopener noreferrer">SL Math</a>
+            <span data-i18n="homeAboutBeforeBerkeley">in Fall 2024. I completed my Ph.D. at</span>
+            <a href="https://math.berkeley.edu/" target="_blank" rel="noopener noreferrer">UC Berkeley</a>
+            <span data-i18n="homeAboutBeforeSong">under the supervision of</span>
+            <a href="https://sites.google.com/view/songsun" target="_blank" rel="noopener noreferrer">Song Sun</a>
+            <span data-i18n="homeAboutEnd">.</span>
           </p>
-          <div class="hero-links" aria-label="相关链接" data-i18n-aria-label="homeLinksAria">
-            <a href="https://cims.nyu.edu/dynamic/" target="_blank" rel="noopener noreferrer">
-              NYU Courant
-            </a>
+          <div class="hero-links" aria-label="Related links" data-i18n-aria-label="homeLinksAria">
             <a href="https://drive.google.com/drive/folders/1j9rYlbDBwxDfrcmy3tBqa2WFreYxfDbY?usp=share_link" target="_blank" rel="noopener noreferrer">
               CV
             </a>
           </div>
-          <a class="button" href="#research" data-i18n="heroButton">查看 Research</a>
         </div>
 
         <div class="hero-visual reveal">
           <div class="portrait-frame">
             <img
               src="./assets/profile.jpg"
-              alt="Junsheng Zhang 的照片"
+              alt="Photo of Junsheng Zhang"
               data-i18n-alt="profileAlt"
               width="617"
               height="720"
@@ -107,77 +117,101 @@
               <a href="https://arxiv.org/abs/2606.02816" target="_blank" rel="noopener noreferrer">
                 On the geometry of non-collapsed polarized cscK surfaces
               </a>
-              <p>Junsheng Zhang, Keshu Zhou</p>
+              <p class="publication-authors">
+                <a href="#home">Junsheng Zhang</a>,
+                <a href="https://arxiv.org/search/?query=%22Keshu+Zhou%22&searchtype=all" target="_blank" rel="noopener noreferrer">Keshu Zhou</a>
+              </p>
               <p>arXiv preprint</p>
             </li>
             <li class="publication-item reveal">
               <a href="https://arxiv.org/abs/2605.25213v1" target="_blank" rel="noopener noreferrer">
                 Kähler-Ricci shrinkers are complex analytic
               </a>
-              <p>Max Hallgren, Junsheng Zhang</p>
+              <p class="publication-authors">
+                <a href="https://arxiv.org/search/?query=%22Max+Hallgren%22&searchtype=all" target="_blank" rel="noopener noreferrer">Max Hallgren</a>,
+                <a href="#home">Junsheng Zhang</a>
+              </p>
               <p>arXiv preprint</p>
             </li>
             <li class="publication-item reveal">
               <a href="https://arxiv.org/abs/2602.19913v1" target="_blank" rel="noopener noreferrer">
                 Gromov-Hausdorff limits of immortal Kähler-Ricci flows
               </a>
-              <p>Man-Chun Lee, Valentino Tosatti, Junsheng Zhang</p>
+              <p class="publication-authors">
+                <a href="https://sites.google.com/view/mcleemath/home" target="_blank" rel="noopener noreferrer">Man-Chun Lee</a>,
+                <a href="https://cims.nyu.edu/~tosatti/" target="_blank" rel="noopener noreferrer">Valentino Tosatti</a>,
+                <a href="#home">Junsheng Zhang</a>
+              </p>
               <p>arXiv preprint</p>
             </li>
             <li class="publication-item reveal">
               <a href="https://arxiv.org/abs/2511.14735v1" target="_blank" rel="noopener noreferrer">
                 Weak transcendental base-point freeness and diameter lower bounds for the Kähler-Ricci flow
               </a>
-              <p>Junsheng Zhang</p>
+              <p class="publication-authors"><a href="#home">Junsheng Zhang</a></p>
               <p>arXiv preprint</p>
             </li>
             <li class="publication-item reveal">
               <a href="https://arxiv.org/abs/2505.02630" target="_blank" rel="noopener noreferrer">
                 On the local topology of non-collapsed Ricci bounded limit spaces
               </a>
-              <p>Song Sun, Jikang Wang, Junsheng Zhang</p>
+              <p class="publication-authors">
+                <a href="https://sites.google.com/view/songsun" target="_blank" rel="noopener noreferrer">Song Sun</a>,
+                <a href="https://arxiv.org/search/?query=%22Jikang+Wang%22&searchtype=all" target="_blank" rel="noopener noreferrer">Jikang Wang</a>,
+                <a href="#home">Junsheng Zhang</a>
+              </p>
               <p>arXiv preprint</p>
             </li>
             <li class="publication-item reveal">
               <a href="https://arxiv.org/abs/2410.09661" target="_blank" rel="noopener noreferrer">
                 Kähler-Ricci shrinkers and Fano fibrations
               </a>
-              <p>Song Sun, Junsheng Zhang</p>
+              <p class="publication-authors">
+                <a href="https://sites.google.com/view/songsun" target="_blank" rel="noopener noreferrer">Song Sun</a>,
+                <a href="#home">Junsheng Zhang</a>
+              </p>
               <p>arXiv preprint</p>
             </li>
             <li class="publication-item reveal">
               <a href="https://arxiv.org/abs/2407.07382" target="_blank" rel="noopener noreferrer">
                 On polynomial convergence to tangent cones for singular Kähler-Einstein metrics
               </a>
-              <p>Junsheng Zhang</p>
+              <p class="publication-authors"><a href="#home">Junsheng Zhang</a></p>
               <p>Crelle's Journal</p>
             </li>
             <li class="publication-item reveal">
               <a href="https://academic.oup.com/imrn/article-abstract/2024/17/12150/7713912" target="_blank" rel="noopener noreferrer">
                 On the generalized numerical criterion
               </a>
-              <p>Sean Paul, Song Sun, Junsheng Zhang</p>
+              <p class="publication-authors">
+                <a href="https://arxiv.org/search/?query=%22Sean+Timothy+Paul%22&searchtype=all" target="_blank" rel="noopener noreferrer">Sean Paul</a>,
+                <a href="https://sites.google.com/view/songsun" target="_blank" rel="noopener noreferrer">Song Sun</a>,
+                <a href="#home">Junsheng Zhang</a>
+              </p>
               <p>IMRN</p>
             </li>
             <li class="publication-item reveal">
               <a href="https://arxiv.org/abs/2302.06592" target="_blank" rel="noopener noreferrer">
                 A note on the supercritical deformed Hermitian-Yang-Mills equation
               </a>
-              <p>Junsheng Zhang</p>
+              <p class="publication-authors"><a href="#home">Junsheng Zhang</a></p>
               <p>arXiv preprint</p>
             </li>
             <li class="publication-item reveal">
               <a href="https://link.springer.com/article/10.1007/s00222-023-01187-4" target="_blank" rel="noopener noreferrer">
                 No semistability at infinity for Calabi-Yau metrics asymptotic to cones
               </a>
-              <p>Song Sun, Junsheng Zhang</p>
+              <p class="publication-authors">
+                <a href="https://sites.google.com/view/songsun" target="_blank" rel="noopener noreferrer">Song Sun</a>,
+                <a href="#home">Junsheng Zhang</a>
+              </p>
               <p>Inventiones mathematicae</p>
             </li>
             <li class="publication-item reveal">
               <a href="https://link.springer.com/article/10.1007/s00208-024-02849-1" target="_blank" rel="noopener noreferrer">
                 Hermitian-Yang-Mills connections on some complete non-compact Kähler manifolds
               </a>
-              <p>Junsheng Zhang</p>
+              <p class="publication-authors"><a href="#home">Junsheng Zhang</a></p>
               <p>Math Annalen</p>
             </li>
           </ol>
@@ -241,7 +275,10 @@
     </main>
 
     <footer class="site-footer">
-      <p>© <span id="year"></span> <span data-i18n="footerRights">Junsheng Zhang. 保留所有权利。</span></p>
+      <p>
+        © <span id="year"></span>
+        <a href="#home">Junsheng Zhang</a><span data-i18n="footerRights">. All rights reserved.</span>
+      </p>
     </footer>
 
     <script src="./script.js"></script>
